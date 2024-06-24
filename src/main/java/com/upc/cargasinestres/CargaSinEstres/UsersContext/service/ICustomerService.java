@@ -5,7 +5,7 @@ import com.upc.cargasinestres.CargaSinEstres.UsersContext.model.dto.Customer.res
 
 public interface ICustomerService {
 
-    //GET
+    
     public abstract CustomerResponseDto getCustomerForLogin(String email, String password);
 
     public abstract CustomerResponseDto getCustomerById(Long id);
